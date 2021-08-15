@@ -90,24 +90,36 @@ header{
 @media only screen and (max-width: 768px) {
     body{
         background-color: $bgcolor;
+        .header__nav{
+        background-color: $colorbody;
+        justify-content: center;
+        width: 100%;
     }
-     
+    }
 }
 @media only screen and (min-width: 768px) {
     body{
-        background-color: $colorborde;
+        background-color: $colorBorde;
+        .header__nav{
+            background-color: $colorbody;
+        }
     }
     .title{
-      color: $bgcolor;
+        color: $bgcolor;
     }
     div{
-        color: $colormedia;
+        color: $colorMedia;
     }
-    
 }
 @media only screen and (min-width: 992px) {
     body{
         background-color: $colorbody;
+        .header__nav{
+            background-color: $bgcolor;
+        }
     }
-    
+    .title{
+        color: $colorTit;
+    }
+
 }
