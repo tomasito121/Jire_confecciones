@@ -5,8 +5,8 @@ $width1: 900px;
 
 div{
     text-align: center;
-    color: $bgcolor;
-    border: darkgoldenrod 5px double;
+    color: $colorTit;
+    border:  5px double;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .padre{
@@ -110,7 +110,7 @@ div{
 }
 div{
     text-align: center;
-    color: $bgcolor;
+    color: $colorTit;
     border: darkgoldenrod 5px double;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -165,7 +165,7 @@ div{
 }
 .div{
     text-align: center;
-    color: $bgcolor;
+    color: $colorTit;
     border: $colorBorde 3px solid;
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
@@ -243,7 +243,7 @@ div{
 }
 div{
     text-align: center;
-    color: $bgcolor;
+    color: $colorTit;
     border: $colorBorde 3px solid;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -349,7 +349,7 @@ div{
 
 .div{
     text-align: center;
-    color: $bgcolor;
+    color: $colorTit;
     border: $colorBorde 3px solid;
     font-family:Georgia, 'Times New Roman', Times, serif;
     display: flex;
