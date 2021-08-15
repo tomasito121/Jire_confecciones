@@ -90,10 +90,23 @@ header{
 @media only screen and (max-width: 768px) {
     body{
         background-color: $bgcolor;
+        
+        .logo1{
+            list-style: outside;
+        }
         .header__nav{
         background-color: $colorbody;
         justify-content: center;
-        width: 100%;
+        height: min-content;
+        .menu{
+            width: 390px;
+            margin-right: 150px;
+           margin-left: 0px;
+        }
+        .title{
+            justify-content: center;
+            margin-left: 70%;
+        }
     }
     }
 }
